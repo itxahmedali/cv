@@ -1,0 +1,193 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #212529;
+  color: white;
+  font-family: "Padauk400";
+  margin:auto;
+}
+/* heading section */
+h1{
+  font-weight: bold;
+  font-family: "Padauk700";
+  font-size:3rem;
+  line-height: 70px;
+}
+/* heading section ends here */
+
+/* navbar section */
+.navbar {
+  padding: 1%  8% 0;
+  position: fixed;
+  width: 100%;
+  background-color: #212529;
+  z-index: 1;
+}
+/* navbar section ends here */
+
+/* home section */
+.home-section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.home-section1{
+  line-height: 150px;
+  position: absolute;
+  top:20%;
+  left:9%;
+}
+h1{
+  font-weight: bold;
+  font-family: "Padauk700";
+  font-size:3rem;
+  line-height: 70px;
+}
+.home-section2{
+  position: absolute;
+  top:80%;
+  left:9%;
+  font-size:2rem;
+  word-spacing: 50px;
+  margin-top:3%;
+
+}
+.btn:hover{
+  color: #fc5185;
+}
+.icons {
+  color: white;
+}
+.icons :hover{
+  color: #fc5185;
+}
+/* home section ends here */
+
+/* about section */
+
+.profile-img{
+  width:100%;
+  height:40vh;
+  border-radius: 50%;
+  border: 10px solid #fc5185;
+  margin-top: 10%;
+}
+.about1-section1{
+  text-align: center;
+  padding-top:5%;
+}
+.about1-section{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap ;
+  text-align: center;
+  justify-content:center;
+  margin: auto;
+}
+/* about section ends here */
+
+/* skills section */
+.skill-heading{
+  text-align: center;
+}
+.container {
+  width: 100%;
+  background-color: grey;
+}
+.skills-section{
+  height: 100vh;
+    text-align: right;
+    padding-right: 8%;
+    margin-bottom:25%;
+}
+.skills {
+  margin-top:3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: white;
+}
+
+.html {width: 90%; background-color: #fc5185;}
+.css {width: 90%; background-color: #fc5185;}
+.bootstrap {width: 90%; background-color: #fc5185;}
+.responsive {width: 90%; background-color: #fc5185;}
+.js {width: 70%; background-color: #fc5185;}
+.graphic-designing{width: 60%; background-color: #fc5185;}
+.python {width: 30%; background-color: #fc5185;}
+.c {width: 30%; background-color: #fc5185;}
+/* skills section ends here */
+
+/* work section */
+.work-section{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  margin-bottom:10%;
+}
+.work-heading{
+  text-align: center;
+}
+.work-images-section{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.work-images{
+  width: 40%;
+  height: 35vh;
+  padding:2%;
+  object-fit:cover;
+}
+/* work section ends here */
+
+/* contact section */
+.contact-section{
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  text-align: center;
+}
+.contact-section-h{
+  padding: 5% 0;
+}
+.contact-section-content{
+  position: absolute;
+  right: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 40vh;
+  border: 1px solid #fc5185 ;
+}
+/* contact section ends here */
+
+/* footer section */
+.footer{
+  width: 100%;
+  height: 25vh;
+  background-color: #fc5185 ;
+  text-align: center;
+  padding: 2%;
+}
+.footer-icons{
+  color: white;
+  font-size:1rem;
+  margin: 2%;
+}
+.footer-icons :hover{
+  color:#212529;
+}
+/* footer section ends here */
+
+
+
+@media screen and (max-width:1000px){
+.work-section{
+  margin-bottom:15%;
+}
+}
